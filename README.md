@@ -17,10 +17,10 @@ Most likely, the data that you want to index by Lucene is plain text English. Th
 Table 1 Lucene analyzers.
 |Analyzer 	|Description
 ------------------------------------------------------------------------
-|StandardAnalyzer 	|A sophisticated general-purpose analyzer.|
-|WhitespaceAnalyzer |	A very simple analyzer that just separates tokens using white space.|
-|StopAnalyzer 	|Removes common English words that are not usually useful for indexing.|
-|SnowballAnalyzer 	|An interesting experimental analyzer that works on word roots (a search on rain should also return entries with raining, rained, and so on). |
+|StandardAnalyzer 	|A sophisticated general-purpose analyzer.|-
+|WhitespaceAnalyzer |	A very simple analyzer that just separates tokens using white space.|-
+|StopAnalyzer 	|Removes common English words that are not usually useful for indexing.|-
+|SnowballAnalyzer 	|An interesting experimental analyzer that works on word roots (a search on rain should also return entries with raining, rained, and so on). |-
 
 
 ## Document
