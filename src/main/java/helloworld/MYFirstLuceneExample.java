@@ -34,8 +34,8 @@ public class MYFirstLuceneExample {
         IndexWriter indexWriter = new IndexWriter(index, config);
         addDoc(indexWriter, "Lucene in Action", new Long(1l));
         addDoc(indexWriter, "Lucene for Dummies", new Long(2l));
-        addDoc(indexWriter, "Managing Gigabytes", new Long(5l));
-        addDoc(indexWriter, "The Art of Computer Science", new Long(3l));
+        addDoc(indexWriter, "Spark in Action", new Long(5l));
+        addDoc(indexWriter, "Hadoop in Action", new Long(3l));
         indexWriter.close();
 
         // 2. query This can accept only word no alphabet.
