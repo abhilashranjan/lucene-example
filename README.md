@@ -15,6 +15,7 @@ At time of index we can store the field depend upn the usages find that index wi
 Field.Store.YES
 </code>
 
+
 If we are storing index using StringField in document then while quering It shot be exact match.
 String field dos not work on tokinezier so it require exact match.
 
@@ -26,12 +27,13 @@ but be carefull it doesnot reconize english gramattical sentence like A, An The 
 Most likely, the data that you want to index by Lucene is plain text English. The job of Analyzer is to "parse" each field of your data into indexable "tokens" or keywords. Several types of analyzers are provided out of the box. Table 1 shows some of the more interesting ones.
 
 Table 1 Lucene analyzers.
-|Analyzer 	|Description
-------------------------------------------------------------------------
-|StandardAnalyzer 	|A sophisticated general-purpose analyzer.|-
-|WhitespaceAnalyzer |	A very simple analyzer that just separates tokens using white space.|-
-|StopAnalyzer 	|Removes common English words that are not usually useful for indexing.|-
-|SnowballAnalyzer 	|An interesting experimental analyzer that works on word roots (a search on rain should also return entries with raining, rained, and so on). |-
+
+| Analyzer          | Description           | 
+| -------------     |:-------------:|
+| StandardAnalyzer  | A sophisticated general-purpose analyzer | 
+| WhitespaceAnalyzer| A very simple analyzer that just separates tokens using white space.     |
+| StopAnalyzer      |Removes common English words that are not usually useful for indexing.     |
+| SnowballAnalyzer  |An interesting experimental analyzer that works on word roots (a search on rain should also return entries with raining, rained, and so on).| 
 
 
 ## Document
